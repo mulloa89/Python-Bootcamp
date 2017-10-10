@@ -67,15 +67,34 @@ print new_list
 """"Nesting Lists: we can have data structures...
 within data structures. For ex: A list inside a list"""
 
-
+#Lets make three lists
 l_1 = [1,2,3]
 l_2 = [4,5,6]
 l_3 = [7,8,9]
 
+# Make a list of lists to form a matrix
 matrix = [l_1, l_2, l_3]
 print matrix
-print matrix[0]
-print matrix[2][0]
 
+"""Now we can again use indexing to grab elements, but know there are
+two levels for the index. The items in the matrix object, and then the
+items inside that list!"""
+
+# Grab first item in matrix object
+print matrix[0]
+# Grab first item of the first item in the matrix object
+print matrix[0][0]
+
+"""List Comprehensions:
+Python has an advanced feature called list comprehensions. They allow
+for quick construction of lists. To fully understand this, we need to
+understand for loops. So don't worry if you don't completely understand
+this section, and feel free to just skip it since we will return to
+this topic later."""
+
+#Build a list comprehension by deconstructing a for loop within a []
 first_col = [row[0] for row in matrix]
 print first_col
+
+# we used list comp. here to grab the first element of every row in the
+# matrix object.
