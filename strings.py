@@ -40,7 +40,7 @@ print s[:] # Everything!
 
 print s[-1] # Last letter (one index behind 0 so it loops back around)
 
-print s[:] # Grab everything but the last letter
+print s[:-1] # Grab everything but the last letter
 
 """ We can also use index and slice notation to grab elements of a
 sequence by a specified step size (default is 1). For instance we can
@@ -55,6 +55,13 @@ print s[::2]
 
 # Prints string backwards
 print s[::-1]
+
+""" String Properties: strings have an important property known as
+immutability. This means that once a string is created, the elements
+within it can not be changed or replaced. For example: """
+
+# s[0] = x !! will return error/ item assignment not suported
+
 
 # Concatenate strings! (...to link together)
 
