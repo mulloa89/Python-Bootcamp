@@ -12,10 +12,10 @@ print len(t)
 t = ('one',2)
 
 # Use indexing just like we did in lists
-print t(0)
+print t[0]
 
 # Slicing just like a list
-print t(-1)
+print t[-1]
 
 
 """Basic Tuple Methods"""
