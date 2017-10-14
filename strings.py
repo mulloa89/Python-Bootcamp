@@ -1,5 +1,8 @@
 """Strings"""
 
+"""Used in python to record text info; name. Viewed as a sequence by
+Py. Can be indexed to grab particular letters."""
+
 # We can print strings in single & double quotes
 
 print 'Hi there!'
