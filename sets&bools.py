@@ -9,7 +9,7 @@ x.add(1)
 print x
 
 x.add(2)
-printx
+print x
 
 """Sets only have unique elements. Cannot add the same thing twice."""
 # adding 2 to x --> x.add(2) will not add two '2's; x remains {1,2}

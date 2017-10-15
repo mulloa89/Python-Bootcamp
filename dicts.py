@@ -1,10 +1,11 @@
-"""Dictionaries(hash tables)
-Mappings are a collection of objects that are stored by a key, unlike
+"""Dictionaries(hash tables)"""
+
+""" Mappings are a collection of objects that are stored by a key, unlike
 a sequence that stored objects by their relative position. This is an
 important distinction, since mappings won't retain order since they
-have objects defined by a key. 
+have objects defined by a key. """
 
-A python dictionary consists of a key and then an associated value. 
+""" A python dictionary consists of a key and then an associated value. 
 That value can be almost any python object. """
 
 

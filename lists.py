@@ -4,7 +4,7 @@
 # theya are mutable; elements can be changed!
 
 
-# Assign a lsit to a variable named my_list
+# Assign a list to a variable named my_list
 
 my_list = [1,2,3]
 
